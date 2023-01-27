@@ -1,0 +1,135 @@
+@charset "UTF-8";
+
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background-image: radial-gradient(circle, #e9f1f8, #abacb1, #747579, #19191a);
+}
+
+header {
+  background-color: rgb(253, 253, 253);
+  min-width: 300px;
+  max-width: 900px;
+  padding: 15px;
+  margin: auto;
+  border-radius: 10px; 
+  box-shadow: 5px 5px 15px rgb(0, 0, 0);
+  margin-bottom: 5px
+}
+
+main {
+  background-color: rgb(253, 253, 253);
+  min-width: 300px;
+  max-width: 900px;
+  padding: 15px;
+  margin: auto;
+  border-radius: 10px; 
+  box-shadow: 5px 5px 15px rgb(0, 0, 0)
+}
+
+h1 {
+  color:black;
+  text-align: center;
+  text-shadow: 1px 1px 2px rgb(86, 207, 255);
+
+}
+
+h2 {
+  color:#02174e;
+  text-align: center;
+  text-shadow: 1px 1px 2px green;
+  margin-top: 60px;
+}
+
+h3 {
+  color:#062885;
+  cursor: cell; 
+  text-align: left;
+  text-shadow: 1px 1px 2px rgb(78, 200, 248);
+  margin-left: 80px;
+
+}
+
+/* Mantém os certificados à esquerda com um pequeno recuo da margem */
+.cert {
+  text-align: left;
+  margin-left: 120px;
+}
+
+p {
+    text-align: center;
+}
+
+/* Configurações gráficas do menu interativo */
+.menu {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-shadow:rgb(255, 255, 255);
+  list-style-type: none;
+  margin: auto;
+  padding: 1px;
+  width: 900px;
+  overflow: hidden;
+  background-color: rgb(10, 2, 39);
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgb(255, 255, 255);
+  transition: 0.3s;
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+/* Adiciona caracteristicas gráficas aos botões do menu como tempo de 0.3 segundos para o botão mover-se para baixo */
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+/* Adiciona efeito de hover ao passar o mouse por cima do menu */
+li a:hover {
+  background-color: #36a6d3;
+  box-shadow: 5px 5px 10px rgb(253, 253, 253);
+  transform: translateY(10px);
+}
+
+
+/* Adiciona sombreamento aos botões do menu */
+li ul li {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Adiciona a cor vermelha ao clicar sobre um link */
+a.curriculo {
+  color: red;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Adiciona cor ao link já visitado */
+a.curriculo:visited {
+  color: darkred;
+}
+
+a.curriculo:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a.curriculo:active {
+  color: rgb(0, 110, 255);
+}
+
+/* Características do rodapé */
+footer {
+  font-family: 
+  color: rgb(5, 27, 56);
+}
+

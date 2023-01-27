@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
+</head>
+<body>
+    <div class="navegador">
+        <ul>
+            <li class="list active">
+                <a href="#">
+                    <span class="icone">
+                        <ion-icon name="home-outline"></ion-icon>
+                    </span>
+                    <span class="texto">Inicio</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icone">
+                        <ion-icon name="briefcase-outline"></ion-icon>
+                    </span>
+                    <span class="texto">Projetos</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icone">
+                        <ion-icon name="desktop-outline"></ion-icon>
+                    </span>
+                    <span class="texto">Profissional</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icone">
+                        <ion-icon name="people-outline"></ion-icon>
+                    </span>
+                    <span class="texto">Social</span>
+                </a>
+            </li>
+            <li class="list">
+                <a href="#">
+                    <span class="icone">
+                        <ion-icon name="chatbubble-ellipses-outline"></ion-icon>
+                    </span>
+                    <span class="texto">Chat</span>
+                </a>
+            </li>
+            <div class="indicador"></div>
+        </ul>
+    </div>
+    <script>
+        const list = document.quetySelectorAll('.list');
+        function activeLink(){
+            list.forEach((item) =>
+            item.classList.remove('active'));
+            this.classList.add('active')
+        }
+        list.forEach((item) =>
+        item.addEventListener('click', activeLink));
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
